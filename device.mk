@@ -281,10 +281,10 @@ PRODUCT_PACKAGES += \
     TelephonyOverlayCOMMON
 
 PRODUCT_PACKAGES += \
-    FrameworkOverlayVEUX \
-    SettingsOverlayVEUX \
-    SystemUIOverlayVEUX \
-    WifiOverlayVEUX
+    FrameworkOverlaySPRING \
+    SettingsOverlaySPRING \
+    SystemUIOverlaySPRING \
+    WifiOverlaySPRING
 
 PRODUCT_PACKAGES += \
     SettingsProviderOverlay2201116SG \
@@ -474,5 +474,5 @@ PRODUCT_BOOT_JARS += \
     WfdCommon
 
 # Inherit from proprietary targets
-$(call inherit-product, vendor/xiaomi/veux/veux-vendor.mk)
-$(call inherit-product, vendor/xiaomi/miuicamera-veux/MiuiCamera-veux.mk)
+$(call inherit-product, vendor/xiaomi/spring/spring-vendor.mk)
+$(call inherit-product, vendor/xiaomi/miuicamera-spring/MiuiCamera-spring.mk)

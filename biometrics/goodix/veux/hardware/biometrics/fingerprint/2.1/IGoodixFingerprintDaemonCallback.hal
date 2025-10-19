@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package vendor.goodix.veux.hardware.biometrics.fingerprint@2.1;
+package vendor.goodix.spring.hardware.biometrics.fingerprint@2.1;
 
 interface IGoodixFingerprintDaemonCallback {
     oneway onEnrollResult(uint64_t devId, uint32_t fingerId, uint32_t groupId, uint32_t rem);

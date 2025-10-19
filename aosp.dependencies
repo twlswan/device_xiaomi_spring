@@ -11,19 +11,19 @@
     "branch": "fourteen"
   },
   {
-    "repository": "device_xiaomi_veux-kernel",
-    "target_path": "device/xiaomi/veux-kernel",
+    "repository": "device_xiaomi_spring-kernel",
+    "target_path": "device/xiaomi/spring-kernel",
     "branch": "thirteen"
   },
   {
-    "repository": "vendor_xiaomi_veux",
-    "target_path": "vendor/xiaomi/veux",
+    "repository": "vendor_xiaomi_spring",
+    "target_path": "vendor/xiaomi/spring",
     "branch": "fourteen",
     "remote": "pixel-devices-blobs"
   },
   {
-    "repository": "vendor_xiaomi_miuicamera-veux",
-    "target_path": "vendor/xiaomi/miuicamera-veux",
+    "repository": "vendor_xiaomi_miuicamera-spring",
+    "target_path": "vendor/xiaomi/miuicamera-spring",
     "branch": "fourteen",
     "remote": "pixel-devices-blobs"
   }

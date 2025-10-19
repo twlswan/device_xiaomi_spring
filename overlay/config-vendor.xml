@@ -3,8 +3,8 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <config>
-    <overlay package="android.overlay.veux" mutable="false" enabled="true" />
-    <overlay package="com.android.settings.overlay.veux" mutable="false" enabled="true" />
-    <overlay package="com.android.systemui.overlay.veux" mutable="false" enabled="true" />
-    <overlay package="com.android.wifi.resources.overlay.veux" mutable="false" enabled="true" />
+    <overlay package="android.overlay.spring" mutable="false" enabled="true" />
+    <overlay package="com.android.settings.overlay.spring" mutable="false" enabled="true" />
+    <overlay package="com.android.systemui.overlay.spring" mutable="false" enabled="true" />
+    <overlay package="com.android.wifi.resources.overlay.spring" mutable="false" enabled="true" />
 </config>

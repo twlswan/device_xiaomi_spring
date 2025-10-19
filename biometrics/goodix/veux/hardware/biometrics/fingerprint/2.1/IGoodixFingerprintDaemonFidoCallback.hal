@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package vendor.goodix.veux.hardware.biometrics.fingerprint@2.1;
+package vendor.goodix.spring.hardware.biometrics.fingerprint@2.1;
 
 interface IGoodixFingerprintDaemonFidoCallback {
     oneway onAuthenticatedFido(uint64_t devId, uint32_t fpId, vec<uint8_t> uvtData);
