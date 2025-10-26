@@ -12,7 +12,6 @@
 /mnt/vendor/persist/camera(/.*)?                                              u:object_r:camera_persist_file:s0
 /persist/camera(/.*)?                                                         u:object_r:camera_persist_file:s0
 /data/vendor/perfspy(/.*)?                                                    u:object_r:vendor_camera_data_file:s0
-/dev/stmvl53l5                                                                u:object_r:stmvl53l5_device:s0
 
 # Display
 /sys/class/backlight(/.*)?                                                                u:object_r:vendor_sysfs_graphics:s0
@@ -74,7 +73,7 @@
 /(odm|vendor/odm|vendor|system/vendor)/bin/hw/vendor.xiaomi.sensor.citsensorservice.aidl u:object_r:vendor_hal_citsensorservice_xiaomi_default_exec:s0
 
 # SLA
-/(vendor|system/vendor)/bin/hw/vendor\.qti\.sla\.service\@1\.0-service u:object_r:hal_slaservice_qti_exec:s0
+/(vendor|system/vendor)/bin/hw/vendor\.qti\.sla\.service\@2\.0-service u:object_r:hal_slaservice_qti_exec:s0
 
 # Touchfeature
 /data/vendor/touch(/.*)?                                    u:object_r:vendor_data_touchreport_file:s0
@@ -97,7 +96,6 @@
 
 # Wifi
 /data/vendor/mac_addr(/.*)? u:object_r:vendor_mac_vendor_data_file:s0
-/vendor/bin/nv_mac u:object_r:vendor_wcnss_service_exec:s0
 
 # Xiaomi thermal daemon
 /(vendor|system/vendor)/bin/mi_thermald     u:object_r:mi_thermald_exec:s0
